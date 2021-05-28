@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+
+h1.title {
+  font-size: 38px;
+  color: DarkRed;
+  text-align: center;
+}
+h3.subtitle {
+  font-size: 28px;
+  color: DarkRed;
+  text-align: center;
+}
+
+h4.author { /* Header 4 - and the author and data headers use this too  */
+  font-size: 22px;
+  color: DarkBlue;
+  text-align: center;
+}
+h4.date { /* Header 4 - and the author and data headers use this too  */
+  font-size: 18px;
+  color: DarkBlue;
+  text-align: center;
+}
+
+body {
+  font-family: 'Balthazar', serif;
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 2rem;
+}
+
+pre {
+  border: solid black 2px;
+}
+
+a {
+    color: #e91e63;
+    text-decoration: underline;
+}
+
+
+h1::first-letter, h2::first-letter {
+  font-size: 200%;
+}

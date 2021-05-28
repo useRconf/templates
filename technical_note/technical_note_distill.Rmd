@@ -1,0 +1,120 @@
+---
+title: "Technical Note"
+subtitle: "using distill"
+description: "[[Template](https://github.com/useRconf/templates). _Recommended total reading time: 5-6min_]"
+author:
+- name: Author1
+  affiliation: useRconf, GitHub
+  affiliation_url: https://github.com/userconf
+  url: https://jravilab.github.io
+  orcid_id: 0000-0001-7443-925X
+- name: Author2
+  affiliation: useR conference webpage
+  affiliation_url: https://user2021.r-project.org/
+  url: https://github.com/userconf
+date: "`r Sys.Date()`"
+output:
+  html: distill::distill_article # using distill package
+graphics: yes
+font-family: Helvetica
+#images: figures	
+bibliography: technical_note.bib # references bibtex file
+csl: technical_note.csl # citation style
+biblio-style: apa
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Abstract
+
+[Short statement or paragraph summarizing the Technical Note. Up to 250 words.]
+
+**Tips for structured abstract:** Background; Findings, the technical details of the method, how the method was performed and statistical tests used; Conclusions, brief summary and potential implications. Please minimize the use of abbreviations and do not cite references in the abstract.
+
+### Keywords
+
+R package development, R Shiny webapp, Bioinformatics
+
+## Findings
+
+The findings section can be broken into subsections with short informative headings. There is no maximum length for this section, but we encourage authors to be concise. You can include citations here [@allaire_rmarkdown_2020]. See example Markdown text below.
+
+### Including Rmd subsections
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+### Including code
+
+You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+### Including math
+You can write math expressions using LaTeX formatting:
+$$
+ABC = pqr_{sub} \circ logABC
+$$
+
+### Including plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Methods
+
+For Technical Notes, this section is specific for including any additional methods used in the manuscript, that are not part of the new work being described in the manuscript.
+
+### **Availability of supporting source code and requirements**
+
+List the following:
+
+-   Project name: e.g. My bioinformatics project
+-   Project home page: e.g. https://github.com/useRconf/templates
+-   Operating system(s): e.g. Platform independent
+-   Programming language: e.g. R
+-   Other requirements: e.g. R 4.0.5 or higher
+-   License: e.g. GNU GPL, FreeBSD etc.
+
+### Data availability
+
+## Declarations
+
+### List of abbreviations
+
+...
+
+### Competing interests
+
+...
+
+### Funding
+
+...
+
+### Author contributions
+
+Janani Ravi and Mohamed El Fodil Ihaddaden created the Rmd and CSS
+templates, respectively.
+
+### Acknowledgments
+
+We are grateful to these resources for our inspiration to draft this Rmd
+Technical Note template.
+
+1.  [RMarkdown cookbook by Yihui Xie.](https://bookdown.org/yihui/rmarkdown-cookbook/)
+2.  [Distill for R Markdown](https://rstudio.github.io/distill/)
+3.  [GigaScience Technical note instructions. Oxford Academic.](https://academic.oup.com/gigascience/pages/technical_note)
+4.  [ResearchGate: Writing a technical note](https://www.researchgate.net/publication/42807606_Writing_a_technical_note)
+5.  [NIST Technical Note Template](https://www.overleaf.com/latex/templates/nist-technical-note-template/gjytbtqtpsmt)
+
