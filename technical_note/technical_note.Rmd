@@ -1,6 +1,6 @@
 ---
 title: "Technical Note"
-subtitle: "[[Template](https://github.com/useRconf/templates). _Recommended total reading time: 5-6min_]"
+subtitle: "[[Template](https://github.com/useRconf/templates). _Recommended total reading time: 4-5min_]"
 author: ["Author1, Affiliation1", "Author2, Affiliation2"]
 #affiliations: ["useR", "R-Ladies"]
 date: "`r Sys.Date()`"
