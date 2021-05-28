@@ -1,7 +1,7 @@
 ---
 title: "Technical Note"
 subtitle: "using distill"
-description: "[[Template](https://github.com/useRconf/templates). _Recommended total reading time: 5-6min_]"
+description: "[[Template](https://github.com/useRconf/templates). _Recommended total reading time: 4-5min_]"
 author:
 - name: Author1
   affiliation: useRconf, GitHub
