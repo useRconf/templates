@@ -1,2 +1,1 @@
-# templates
-Templates for useR submissions
+# Templates for useR submissions
